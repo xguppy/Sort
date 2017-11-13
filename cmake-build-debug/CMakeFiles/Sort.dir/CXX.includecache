@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/guppy/git/Sort/main.cpp
-iostream
+/home/guppy/git/Sort/MainWindow.cpp
+MainWindow.h
+/home/guppy/git/Sort/MainWindow.h
+
+/home/guppy/git/Sort/MainWindow.h
+Fl/Fl.H
 -
+Fl/Fl_Window.H
+-
+FL/fl_draw.H
+-
+
+/home/guppy/git/Sort/main.cpp
+MainWindow.h
+/home/guppy/git/Sort/MainWindow.h
 

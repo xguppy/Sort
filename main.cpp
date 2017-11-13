@@ -1,6 +1,7 @@
-#include <iostream>
 #include "MainWindow.h"
-int main() {
 
-    return 0;
+int main() {
+    MainWindow a(200,200,"Hello");
+
+    return Fl::run();
 }
