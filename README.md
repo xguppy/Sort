@@ -1,6 +1,8 @@
 # Sort
 Курсовая
+
 Чтобы собрать проект должны быть установленны FLUID и FLTK
+
 CMakeList's content for using FLTK:
 
 cmake_minimum_required(VERSION 3.8)
