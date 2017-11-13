@@ -8,6 +8,7 @@ class MainWindow:public Fl_Window {
 
 public:
     MainWindow(int w, int h, const char *title="MainWindow");
+    void draw();
 };
 
 
