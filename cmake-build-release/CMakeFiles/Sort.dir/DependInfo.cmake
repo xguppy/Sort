@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/guppy/git/Sort/MainWindow.cpp" "/home/guppy/git/Sort/cmake-build-release/CMakeFiles/Sort.dir/MainWindow.cpp.o"
   "/home/guppy/git/Sort/main.cpp" "/home/guppy/git/Sort/cmake-build-release/CMakeFiles/Sort.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

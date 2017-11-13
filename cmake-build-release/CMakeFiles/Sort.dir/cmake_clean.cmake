@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Sort.dir/main.cpp.o"
+  "CMakeFiles/Sort.dir/MainWindow.cpp.o"
   "Sort.pdb"
   "Sort"
 )

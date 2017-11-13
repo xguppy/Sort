@@ -123,6 +123,33 @@ Sort/fast:
 	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/build
 .PHONY : Sort/fast
 
+MainWindow.o: MainWindow.cpp.o
+
+.PHONY : MainWindow.o
+
+# target to build an object file
+MainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/MainWindow.cpp.o
+.PHONY : MainWindow.cpp.o
+
+MainWindow.i: MainWindow.cpp.i
+
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Sort"
+	@echo "... MainWindow.o"
+	@echo "... MainWindow.i"
+	@echo "... MainWindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

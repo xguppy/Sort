@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/guppy/git/Sort/MainWindow.cpp">
+			<Option target="Sort"/>
+		</Unit>
+		<Unit filename="/home/guppy/git/Sort/MainWindow.h">
+			<Option target="Sort"/>
+		</Unit>
 		<Unit filename="/home/guppy/git/Sort/main.cpp">
 			<Option target="Sort"/>
 		</Unit>

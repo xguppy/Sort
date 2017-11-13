@@ -7,7 +7,7 @@ add_definitions($(FLTK_DEFINISTIONS))
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp MainWindow.cpp MainWindow.h)
 
 add_executable(Sort ${SOURCE_FILES})
 
