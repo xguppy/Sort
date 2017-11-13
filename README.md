@@ -1,6 +1,6 @@
 # Sort
 Курсовая
-
+Коммит
 CMakeList's content for using FLTK:
 
 cmake_minimum_required(VERSION 3.8)
