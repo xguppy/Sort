@@ -10,7 +10,7 @@ class MainWindow:public Fl_Window {
 public:
     Fl_Menu_Bar menubar;
     MainWindow(int w, int h, const char *title="MainWindow");
-    void draw();
+    void draw() override;
 };
 
 
