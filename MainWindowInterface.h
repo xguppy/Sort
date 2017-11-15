@@ -36,11 +36,10 @@ class MainWindowInterface:public Fl_Widget
     MyWidget widget;
     Fl_Menu_Bar menuBar;
     static void showabout(Fl_Widget *w, void *) {
-        static About win(200,400);
+        static About  win(200,400);
         win.show();
     }
-    void menuBarInit()
-    {
+    void menuBarInit() {
         menuBar.add("Тестирование/Тема");
         menuBar.add("Тестирование/Режим");
         menuBar.add("Тестирование/Уровень");
@@ -48,6 +47,7 @@ class MainWindowInterface:public Fl_Widget
         menuBar.add("О программе",0,showabout,(void*)this);
         menuBar.add("Помощь");
     }
+
     void draw() override
     {
 

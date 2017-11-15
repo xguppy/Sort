@@ -121,7 +121,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Sort
+CMAKE_PROJECT_NAME:STATIC=SORT
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -180,6 +180,12 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
+
+//Value Computed by CMake
+SORT_BINARY_DIR:STATIC=/home/guppy/git/Sort/cmake-build-debug
+
+//Value Computed by CMake
+SORT_SOURCE_DIR:STATIC=/home/guppy/git/Sort
 
 //Value Computed by CMake
 Sort_BINARY_DIR:STATIC=/home/guppy/git/Sort/cmake-build-debug

@@ -111,44 +111,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Sort
+# Target rules for targets named SORT
 
 # Build rule for target.
-Sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Sort
-.PHONY : Sort
+SORT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SORT
+.PHONY : SORT
 
 # fast build rule for target.
-Sort/fast:
-	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/build
-.PHONY : Sort/fast
+SORT/fast:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/build
+.PHONY : SORT/fast
 
-MainWindow.o: MainWindow.cpp.o
+About.o: About.cpp.o
 
-.PHONY : MainWindow.o
+.PHONY : About.o
 
 # target to build an object file
-MainWindow.cpp.o:
-	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/MainWindow.cpp.o
-.PHONY : MainWindow.cpp.o
+About.cpp.o:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/About.cpp.o
+.PHONY : About.cpp.o
 
-MainWindow.i: MainWindow.cpp.i
+About.i: About.cpp.i
 
-.PHONY : MainWindow.i
+.PHONY : About.i
 
 # target to preprocess a source file
-MainWindow.cpp.i:
-	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/MainWindow.cpp.i
-.PHONY : MainWindow.cpp.i
+About.cpp.i:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/About.cpp.i
+.PHONY : About.cpp.i
 
-MainWindow.s: MainWindow.cpp.s
+About.s: About.cpp.s
 
-.PHONY : MainWindow.s
+.PHONY : About.s
 
 # target to generate assembly for a file
-MainWindow.cpp.s:
-	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/MainWindow.cpp.s
-.PHONY : MainWindow.cpp.s
+About.cpp.s:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/About.cpp.s
+.PHONY : About.cpp.s
+
+MainWindowInterface.o: MainWindowInterface.cpp.o
+
+.PHONY : MainWindowInterface.o
+
+# target to build an object file
+MainWindowInterface.cpp.o:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/MainWindowInterface.cpp.o
+.PHONY : MainWindowInterface.cpp.o
+
+MainWindowInterface.i: MainWindowInterface.cpp.i
+
+.PHONY : MainWindowInterface.i
+
+# target to preprocess a source file
+MainWindowInterface.cpp.i:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/MainWindowInterface.cpp.i
+.PHONY : MainWindowInterface.cpp.i
+
+MainWindowInterface.s: MainWindowInterface.cpp.s
+
+.PHONY : MainWindowInterface.s
+
+# target to generate assembly for a file
+MainWindowInterface.cpp.s:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/MainWindowInterface.cpp.s
+.PHONY : MainWindowInterface.cpp.s
+
+NonModal.o: NonModal.cpp.o
+
+.PHONY : NonModal.o
+
+# target to build an object file
+NonModal.cpp.o:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/NonModal.cpp.o
+.PHONY : NonModal.cpp.o
+
+NonModal.i: NonModal.cpp.i
+
+.PHONY : NonModal.i
+
+# target to preprocess a source file
+NonModal.cpp.i:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/NonModal.cpp.i
+.PHONY : NonModal.cpp.i
+
+NonModal.s: NonModal.cpp.s
+
+.PHONY : NonModal.s
+
+# target to generate assembly for a file
+NonModal.cpp.s:
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/NonModal.cpp.s
+.PHONY : NonModal.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,7 +210,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +219,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +228,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/SORT.dir/build.make CMakeFiles/SORT.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,10 +239,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Sort"
-	@echo "... MainWindow.o"
-	@echo "... MainWindow.i"
-	@echo "... MainWindow.s"
+	@echo "... SORT"
+	@echo "... About.o"
+	@echo "... About.i"
+	@echo "... About.s"
+	@echo "... MainWindowInterface.o"
+	@echo "... MainWindowInterface.i"
+	@echo "... MainWindowInterface.s"
+	@echo "... NonModal.o"
+	@echo "... NonModal.i"
+	@echo "... NonModal.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

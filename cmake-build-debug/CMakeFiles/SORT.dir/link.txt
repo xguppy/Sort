@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SORT.dir/main.cpp.o CMakeFiles/SORT.dir/About.cpp.o CMakeFiles/SORT.dir/NonModal.cpp.o CMakeFiles/SORT.dir/MainWindowInterface.cpp.o  -o SORT  -L/home/guppy/git/Sort/$(FLTK_LIBRARY_DIRS) -Wl,-rpath,/home/guppy/git/Sort/$(FLTK_LIBRARY_DIRS) /usr/lib/x86_64-linux-gnu/libfltk.so 
