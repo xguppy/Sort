@@ -10,9 +10,9 @@
 #include <Fl/Fl_Button.H>
 #include <Fl/Fl_Menu_Bar.H>
 #include <Fl/Fl_Browser.H>
+#include "NonModal.h"
 
-
-class About:public Fl_Window
+class About:public NonModal
 {
     Fl_Browser txt;
     void inittxt();

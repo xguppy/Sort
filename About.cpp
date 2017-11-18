@@ -3,14 +3,24 @@
 //
 
 #include "About.h"
+
 void About::inittxt()
 {
-    txt.add("THINK ABOUT IT");
-    txt.add("VISOHNI");
+    txt.add("");
+    txt.add("\tОбучающую программу по теме Сортировки");
+    txt.add("");
+    txt.add("\tРазработали студенты группы ДИПРб21/1");
+    txt.add("");
+    txt.add("\t\t\t\tМурзаев Игорь");
+    txt.add("\t\t\tБондаренко Елизавета");
+    txt.add("\t\t\tХисматулин Владислав");
 }
 About::About(int w, int h):
-        Fl_Window(w,h,"О программе"),
+        NonModal(w,h,"О программе"),
         txt(0,0,this->w(),this->h())
-{inittxt();end();}
+{
+    inittxt();
+
+}
 
 

@@ -14,7 +14,7 @@ void NonModal::draw()
     fl_draw("HERE WE GO",(this->w())/4+30,(this->h())/2);
 }
 
-NonModal::~NonModal() {
+void NonModal::hide() {
     exit(0);
 }
 

@@ -10,7 +10,7 @@
 #include <Fl/Fl_Button.H>
 #include <Fl/Fl_Menu_Bar.H>
 #include <Fl/Fl_Browser.H>
-#include "About.h"
+#include <Fl/Fl_Help_View.H>
 
 class MainWindowInterface:public Fl_Widget
 {
@@ -22,11 +22,21 @@ class MainWindowInterface:public Fl_Widget
     public:
         MyWidget(int x, int y, int w, int h, const char *L = 0);
     };
+    class Theory{
+        Fl_Help_View helpView;
+    public:
+        Theory(int w, int h);
+        void hide();
+        void show();
+    };
     MyWidget widget;
     Fl_Menu_Bar menuBar;
+    //====================================//
+    static Theory theory;
+    //====================================//
     static void showabout(Fl_Widget *w, void *);
     void menuBarInit();
-
+    static void showtheory(Fl_Widget *w, void *);
     void draw() override
     {    }
 public:

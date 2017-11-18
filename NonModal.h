@@ -14,6 +14,6 @@ class NonModal:public Fl_Window
     void draw();
 public:
     NonModal(int w, int h, const char *title="Sort");
-    ~NonModal() override;
+    virtual void hide() override;
 };
 #endif //SORT_NONMODAL_H
