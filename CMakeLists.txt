@@ -9,7 +9,7 @@ project(SORT)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp About.h About.cpp MainWindowInterface.h MainWindowInterface.cpp NonModal.h NonModal.cpp Test.cpp Test.h)
+set(SOURCE_FILES main.cpp About.h About.cpp NonModal.h NonModal.cpp Test.cpp Test.h Theory.cpp Theory.h Demo.cpp Demo.h)
 add_executable(SORT ${SOURCE_FILES})
 
 TARGET_LINK_LIBRARIES(SORT fltk)

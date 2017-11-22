@@ -3,7 +3,7 @@
 
 int main()
 {
-    NonModal win(1200,600);
-    win.show();
+    auto *win = new NonModalWindow(1200,600,"Сортировки");
+    win->show();
     return Fl::run();
 }

@@ -1,19 +1,20 @@
 //
-// Created by andrew on 17.11.17.
+// Created by andrew on 22.11.17.
 //
 
-#ifndef SORT_TEST_H
-#define SORT_TEST_H
+#ifndef SORT_DEMO_H
+#define SORT_DEMO_H
 #include <Fl/Fl_Browser.H>
 
-class Test:public Fl_Widget{
+class Demo:public Fl_Widget{
     Fl_Browser flB; //для теста
     void draw() override {}
     void iflb();
 public:
-    Test();
+    Demo();
     void hide() override;
     void show() override;
 };
 
-#endif //SORT_TEST_H
+
+#endif //SORT_DEMO_H
