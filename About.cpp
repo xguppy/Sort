@@ -16,7 +16,7 @@ void About::tbi() {
     txt->add("\t\t\tХисматулин Владислав");
 }
 
-About::About() : Fl_Window(400,200,"О программе")
+About::About() : Fl_Window(400,150,"О программе")
 {tbi(); end();}
 
 About::~About() {delete txt;}
